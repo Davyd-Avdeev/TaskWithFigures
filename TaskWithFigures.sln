@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34024.191
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskWithFigures", "TaskWithFigures\TaskWithFigures.csproj", "{D44A6890-DCE2-4917-9735-37355C28E7BF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TaskWithFigures", "TaskWithFigures\TaskWithFigures.csproj", "{D44A6890-DCE2-4917-9735-37355C28E7BF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskWithFigures.Tests", "TaskWithFigures.Tests\TaskWithFigures.Tests.csproj", "{99CDD1B7-E2B1-47F2-BBDB-68D878FF9A73}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{D44A6890-DCE2-4917-9735-37355C28E7BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D44A6890-DCE2-4917-9735-37355C28E7BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D44A6890-DCE2-4917-9735-37355C28E7BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99CDD1B7-E2B1-47F2-BBDB-68D878FF9A73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99CDD1B7-E2B1-47F2-BBDB-68D878FF9A73}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99CDD1B7-E2B1-47F2-BBDB-68D878FF9A73}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99CDD1B7-E2B1-47F2-BBDB-68D878FF9A73}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
