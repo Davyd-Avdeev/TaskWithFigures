@@ -77,5 +77,22 @@ namespace TaskWithFigures.Tests
                 Assert.AreEqual(ExpectedForRectangularTriangle, result);
             }
         }
+
+        [TestCase("TRIANGLE", "Is triangle")]
+        [TestCase("rectangle", "Is rectangle")]
+        [TestCase("ciRclE", "Is circle")]        
+        [TestCase("SQUARE", "There is no such figure")]
+        public void TestChoosingFigureInRunTime(string figureType, string expectedFigure)
+        {
+            using (var sw = new StringWriter())
+            {
+                Console.SetOut(sw);
+                TaskWithFigures.Tests.TestForFigures.TestChoosingFigureInRunTime(figureType);
+
+                var result = sw.ToString().Trim();
+
+                Assert.AreEqual(expectedFigure, result);
+            }
+        }
     }
 }

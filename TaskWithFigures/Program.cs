@@ -1,4 +1,5 @@
-﻿using TaskWithFigures.Tests;
+﻿using TaskWithFigures.Figures;
+using TaskWithFigures.Tests;
 
 namespace TaskWithFigures
 {
@@ -8,5 +9,6 @@ namespace TaskWithFigures
         {
 
         }
+
     }
 }
